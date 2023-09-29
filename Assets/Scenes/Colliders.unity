@@ -136,6 +136,7 @@ GameObject:
   - component: {fileID: 183070581}
   - component: {fileID: 183070580}
   - component: {fileID: 183070584}
+  - component: {fileID: 183070585}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
@@ -150,7 +151,7 @@ SphereCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 183070579}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: c52b46b388ac65149b1eb4fbc1fc675a, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -237,6 +238,24 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &183070585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 183070579}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85995ec9c4d814383851078e709fcff4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  changeColor: 1
+  myColor: {r: 0.9150943, g: 0.10791205, b: 0.10791205, a: 0}
+  destroyEnemy: 1
+  destroyCollectibles: 0
+  pushPower: 2
+  collisionAudio: {fileID: 0}
 --- !u!1 &573008521
 GameObject:
   m_ObjectHideFlags: 0
@@ -250,8 +269,8 @@ GameObject:
   - component: {fileID: 573008523}
   - component: {fileID: 573008522}
   m_Layer: 0
-  m_Name: Plane
-  m_TagString: Untagged
+  m_Name: Collectible
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
