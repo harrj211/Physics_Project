@@ -22,4 +22,5 @@ public class LaunchProjectile : MonoBehaviour
         launcher.y += Input.GetAxis("Vertical") * Time.deltaTime * 10;  
         transform.localPosition = launcher;
     }
+
 }
