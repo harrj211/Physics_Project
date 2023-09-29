@@ -11,7 +11,7 @@ public class LaunchProjectile : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetButtonDown("Fire1"))
+        if (Input.GetButton("Fire1"))
         {
             GameObject ball = Instantiate(projectile, transform.position, transform.rotation);
             ball.GetComponent<Rigidbody>().AddRelativeForce(new Vector3 (0, launchVelocity, 0));

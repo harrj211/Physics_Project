@@ -8,6 +8,7 @@ TagManager:
   - Collectible
   - Ground
   - Object
+  - theobjectToIgnore
   layers:
   - Default
   - TransparentFX

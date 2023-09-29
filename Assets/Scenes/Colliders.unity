@@ -255,7 +255,7 @@ MonoBehaviour:
   destroyEnemy: 1
   destroyCollectibles: 0
   pushPower: 2
-  collisionAudio: {fileID: 0}
+  collisionAudio: {fileID: 8300000, guid: d5b68b0b18bd7eb4db2cd40776141157, type: 3}
 --- !u!1 &573008521
 GameObject:
   m_ObjectHideFlags: 0
