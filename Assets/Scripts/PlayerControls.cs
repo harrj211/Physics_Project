@@ -112,7 +112,7 @@ public class PlayerControls : MonoBehaviour
                     }
                 }
 
-                if (Input.GetKey(KeyCode.S)){
+                if (Input.GetKey(KeyCode.Space)){
                     anim.SetBool("Jump", true);
                     if (running){
                         float slightMove = 0.5f;
